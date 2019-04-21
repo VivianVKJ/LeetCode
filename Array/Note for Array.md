@@ -18,3 +18,24 @@ count is initialized to be 0;  the first time `nums[slow]`==`nums[fast]` both po
   * k<0
   * k>nums.size()
 
+```cpp
+//Solution1:
+vector<int> copynum(k);
+```
+
+```cpp
+//Solution2:
+reverse(nums.begin(),nums.end());
+reverse(nums.begin(), nums.begin()+k);
+reverse(nums.begin()+k, nums.end());
+```
+
+```cpp
+//solution3:
+for (int i = 0;i<n-k;i++){
+	nums.push_back(nums[0]); 
+	nums.erase(nums.begin());
+}
+```
+
+***
