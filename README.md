@@ -1,7 +1,7 @@
 # LeetCode
 A record repository of leetcode exercise.   
 **Note**  
-[Note for Array](/Array/Note for Array.md)  
+[Array](/Array/Note for Array.md)  
 
 **April**
 
