@@ -1,5 +1,6 @@
 # LeetCode
-A record repository of leetcode exercise.   
+A record repository of leetcode exercise. 
+
 **Note**  
 * [Array](/Array/Note-for-Array.md)  
 
