@@ -38,4 +38,14 @@ for (int i = 0;i<n-k;i++){
 }
 ```
 
-***
+**299. Bulls and Cows**
+* String
+    ```cpp 
+    string A = to_null('0'+2) + A;
+    ```
+> My solution:  
+Scan and delete the equal number. 
+Then use two extra vectors to record how many times each number(0 to 9) occurs. Compare two vectors and add the bigger one to result `cows`.
+
+> Another solution: Hash Table
+
