@@ -48,4 +48,9 @@ Scan and delete the equal number.
 Then use two extra vectors to record how many times each number(0 to 9) occurs. Compare two vectors and add the bigger one to result `cows`.
 
 > Another solution: Hash Table
-
+```
+**274. H-index**
+* exceptional case
+  * input [0]: h=0;
+  * inpur [];  h=0;
+	
