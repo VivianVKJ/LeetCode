@@ -52,5 +52,6 @@ Then use two extra vectors to record how many times each number(0 to 9) occurs. 
 **274. H-index**
 * exceptional case
   * input [0]: h=0;
-  * inpur [];  h=0;
+  * input [];  h=0;
+  * input [100]; h=1;
 	
