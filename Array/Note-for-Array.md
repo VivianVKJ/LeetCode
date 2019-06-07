@@ -48,10 +48,13 @@ Scan and delete the equal number.
 Then use two extra vectors to record how many times each number(0 to 9) occurs. Compare two vectors and add the bigger one to result `cows`.
 
 > Another solution: Hash Table
-```
+
+***
 **274. H-index**
 * exceptional case
   * input [0]: h=0;
   * input [];  h=0;
   * input [100]; h=1;
-	
+> Solution:  	
+sort(citations.begin(), citations.end(),greater<int>());  //sort from big to small
+?? if(i>=citations[i]) return i;
