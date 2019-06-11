@@ -57,4 +57,23 @@ Then use two extra vectors to record how many times each number(0 to 9) occurs. 
   * input [100]; h=1;
 > Solution:  	
 sort(citations.begin(), citations.end(),greater<int>());  //sort from big to small
-?? if(i>=citations[i]) return i;
+
+```cpp
+/*
+ * h papers at least h citations
+ * citations[i]:6,5,3,1,0
+ *     index i :0,1,2,3,4
+ */
+class Solution {
+public:
+    int hIndex(vector<int>& citations) {
+        sort(citations.begin(), citations.end(),greater<int>());
+		for (int i = 0; i < citations.size(); i++) 
+			if (i >= citations[i])
+				return i;
+		return citations.size();
+      }
+};
+```
+
+
