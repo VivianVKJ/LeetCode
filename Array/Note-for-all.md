@@ -1,8 +1,9 @@
-**Binary Search**
+***
+## [Binary Search](https://www.cnblogs.com/grandyang/p/6854825.html)
 
-1. target == nums[i]    
-> Solution 1 : [left,right) --> [left,mid), mid, [mid+1,right)
+**1. nums[i]==target**
 ```cpp
+// Solution : [left,right) --> [left,mid), mid, [mid+1,right)
 int find(vector<int>& nums, int target) {
     int left = 0, right = nums.size(); //[left,right)
     while (left < right) {
@@ -14,4 +15,35 @@ int find(vector<int>& nums, int target) {
     return -1;
 }
 ```
-2. target >= nums[i]
+**2. 1st nums[i]>=target** (OR:last nums[i]<target)
+```cpp
+//Solution: [left,right) -> [left,mid), [mid+1,right)
+//[2,4,5,6,9],target=3; i=1 ; [0,1,1,1,1],target=1; i=1;
+int find(vector<int>& nums, int target){
+    int left=0, right=nums.size();
+    while(left<right){
+        int mid = left + (right-left) / 2;
+        if(nums[mid]<target) left=mid+1;
+        else right=mid; //[left,mid)
+    }
+    return right; 
+}
+//Find last nums[i]<target: return right-1;
+```
+
+**3. 1st nums[i]>target** 
+```cpp
+//Solution: [left,right) -> [left,mid), [mid+1,right)
+int find(vector<int>& nums, int target){
+    int left=0, right=nums.size();
+    while(left<right){
+        int mid = left + (right-left) / 2;
+        if(nums[mid]<=target) left=mid+1;
+        else right=mid; //[left,mid)
+    }
+    return right; 
+}
+//Find last nums[i]<=target: return right-1;
+```
+**4. use subFuction as condition**
+***
