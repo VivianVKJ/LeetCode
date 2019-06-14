@@ -10,17 +10,16 @@
 class Solution {
 public:
     int hIndex(vector<int>& citations) {
-        int l=0,mid=0,r=citations.size()-1; //[l,r]
+        int l=0,r=citations.size(); //[l,r)
+        //solution: [l,mid),[mid+1,r);
         while(l<r){
-            mid=(l+r)/2;
+            int mid=l+(r-l)/2;
             if(mid<citations[mid]){
-                l=mid+1; // (mid,r]
+                l=mid+1; // [mid+1,r)
             }
-            else {
-                r=mid; //[l,mid]
-            }           
+            else r=mid;  //[l,mid)      
         }
-        return mid;
+        return r;
     }
 };
 
