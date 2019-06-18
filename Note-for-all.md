@@ -46,4 +46,7 @@ int find(vector<int>& nums, int target){
 //Find last nums[i]<=target: return right-1;
 ```
 **4. use subFuction as condition**
+
+**5. function changes with index?**
+> #275 attention to what gonna be return 
 ***
