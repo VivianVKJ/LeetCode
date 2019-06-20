@@ -22,17 +22,15 @@ public:
         }
         //Error4: check if r<0
         if(r<0) return false;
-        
         //Error2:return right not right -1
-        int col = r;
-        
+        int rowIndex = r;
         
         l = 0;
         r = column-1;
         while(l<=r){
             int mid = (l+r)/2;
-            if(matrix[col][mid]==target) return true;
-            else if(matrix[col][mid]<target) l=mid+1;
+            if(matrix[rowIndex][mid]==target) return true;
+            else if(matrix[rowIndex][mid]<target) l=mid+1;
             else r=mid-1;
         }
         return false;
