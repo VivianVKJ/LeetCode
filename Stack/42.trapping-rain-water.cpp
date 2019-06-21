@@ -36,6 +36,7 @@ public:
                 temp=0;
             }
         }
+        //Error: can't count the following segements of the actual hightest.
         return result;
     }
 };
