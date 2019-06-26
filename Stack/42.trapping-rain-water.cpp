@@ -1,6 +1,6 @@
 /*
  * @lc app=leetcode id=42 lang=cpp
- *
+ * https://www.cnblogs.com/grandyang/p/8887985.html
  * [42] Trapping Rain Water
  */
 #include <stack>

@@ -49,4 +49,15 @@ int find(vector<int>& nums, int target){
 
 **5. function changes with index?**
 > #275 attention to what gonna be return 
+
 ***
+## Stack ##
+#####  Basic Usage
+
+##### Monotone Stack
+* Usage1: find the last element 'x' which smaller than num[i] `on the left`
+
+    |num|2|1|4|6|5|
+    |:--:|:---:|:---:|:---:|:---:|:---:|
+    |stack|[2,| [1,| [1,4 | [1,4,6 |[1,4,5|
+    |last <|-|-|1|4|4|
