@@ -112,7 +112,7 @@ public:
 * Binary Search, find last element < function(target);
 * Cornor Case: the `number^2` will be `lager than integer`, use `’/'` rather than `'*'`
 
-**74. search-a-2D-matrixx**
+**74. search-a-2D-matrix**
 * Compute the row and column in 2D matrix：
     * row = matrix.size();
     * column = matrix[0].size();
@@ -124,4 +124,9 @@ public:
     1. find the `rowIndex` by search the fisrt column: `matrix[i][0]`
     2. when finding the index of row: we are finding the last element < target (if not the same)
 
-
+**394. decode-string**
+* Stack处理嵌套的字符串：
+    * 遇到']'说明短的循环结束，要在上一层的循环节上附加处理之后的循环节。
+    * 数字可能大于10，所以循环处理，   `count=count*10+s[i]-'0';`
+    * 遇到'['，两个栈分别存`循环次数`和`当前字符串`
+* 递归的方法：
