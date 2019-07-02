@@ -53,7 +53,14 @@ int find(vector<int>& nums, int target){
 ***
 ## Stack ##
 #####  Basic Usage
-
+```cpp
+stack<int> example;
+    int input = 1;
+    int output = 0;
+    example.push(input);
+    output = example.top();example.pop();
+    example.empty();
+```
 ##### Monotone Stack
 * Usage1: find the last element 'x' which smaller than num[i] `on the left`
 
