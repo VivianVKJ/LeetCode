@@ -15,38 +15,32 @@ public:
         string loop = "";
 
         for(int i=0; i<s.size();i++){
-            if(s[i]>='0' && s[i]){
+            if(s[i]>='0' && s[i]<='9'){
                 count = count*10 + s[i]-'0';
             }
             else if(s[i]=='['){
+                num.push(count);
+                cout<<"meent '[', push count= "<< count
+                    <<" loop"=loop<<endl;
                 count = 0;
-                codes.push(s[i]);
-                cout<<"push "<<codes.top()<<"  ";
+                str.push(loop);
+                loop.clear();
             }
             else if(s[i]==']'){
                 int times = num.top();
                 num.pop();
                 while(times-1){
-                    
-
+                    str.top()+=loop;
                 }
-                str.push(loop);
-                
-                loop="";
+                cout<<"now top
+                loop = str.top();
+                str.pop();
             }
             else { loop+=s[i];}
             
         }
-        stack<char> rresult;
-        while(!codes.empty()){
-            rresult.push(codes.top());
-            codes.pop();
-        }
-        while(!rresult.empty()){
-            result += rresult.top();
-            rresult.pop();
-        }
-        return result;
+
+        return str.empty() ? loop : str.top();
     }
 };
 
