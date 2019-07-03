@@ -1,6 +1,6 @@
 /*
  * @lc app=leetcode id=739 lang=cpp
- *
+ * One pass by myself~
  * [739] Daily Temperatures
  */
 class Solution {
@@ -12,15 +12,11 @@ public:
             if(cold_day.empty()) cold_day.push(i);
             else{ //not null
                 while(T[i]>T[cold_day.top()]){
-                    //cout<<"i="<<i<<"  ";
                     days[cold_day.top()] = i - cold_day.top();
-                    //cout<<"stack top"<<cold_day.top()<<"  ";
-                    //cout<<"day="<<days[cold_day.top()]<<" and pop!"<<endl;
                     cold_day.pop();
                     if(cold_day.empty()) break;
                 }
                 cold_day.push(i);
-                //cout<<"push day:"<<i<<endl;
             }
         }
         return days;

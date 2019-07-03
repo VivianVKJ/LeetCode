@@ -68,3 +68,20 @@ stack<int> example;
     |:--:|:---:|:---:|:---:|:---:|:---:|
     |stack|[2,| [1,| [1,4 | [1,4,6 |[1,4,5|
     |last <|-|-|1|4|4|
+
+## Queue ##
+##### Basic Usage
+```cpp
+queue<int> q;
+q.empty(), q.frount(), q.back();
+q.pop(),   q.push(x),  q.size();
+```
+## Tree ##
+####Binary Tree
+* Type: 
+    * `Preorder` root-left-right
+    * `Inorder`  left-root-right
+    * `Postorder` left-right-root
+* Traversal Method: (leetcode 144, 94, 145)
+    * Recursion 
+    * Stack
