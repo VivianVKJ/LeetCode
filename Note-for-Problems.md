@@ -124,9 +124,19 @@ public:
     1. find the `rowIndex` by search the fisrt column: `matrix[i][0]`
     2. when finding the index of row: we are finding the last element < target (if not the same)
 
+## Stack & Queue
 **394. decode-string**
 * Stack处理嵌套的字符串：
     * 遇到']'说明短的循环结束，要在上一层的循环节上附加处理之后的循环节。
     * 数字可能大于10，所以循环处理，   `count=count*10+s[i]-'0';`
     * 遇到'['，两个栈分别存`循环次数`和`当前字符串`
 * 递归的方法：
+
+**225. implement-stack-using-queue**
+* Method：save the numbers in an reserve order in the final queue;
+    * `push(x)` dequeue all in the reserve queue and save all the numbers in another queue `temp`, `push(x)` then enqueue the numbers in temp.
+    * queue `reserve` save the final queue in a stack's way.
+
+**394. implement-queue-using-stack**
+* Method1：like 225
+* Method2：only reserve the sort when `pop()` & `top()`

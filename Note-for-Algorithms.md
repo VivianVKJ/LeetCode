@@ -79,9 +79,9 @@ q.pop(),   q.push(x),  q.size();
 ## Tree ##
 ####Binary Tree
 * Type: 
-    * `Preorder` root-left-right
-    * `Inorder`  left-root-right
-    * `Postorder` left-right-root
-* Traversal Method: (leetcode 144, 94, 145)
+    * `Preorder` root-left-right [144]
+    * `Inorder`  left-root-right [94]
+    * `Postorder` left-right-root [145]
+* Traversal Method:
     * Recursion 
-    * Stack
+    * Non-Recursion: Stack
