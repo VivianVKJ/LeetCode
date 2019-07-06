@@ -82,6 +82,13 @@ q.pop(),   q.push(x),  q.size();
     * `Preorder` root-left-right [144]
     * `Inorder`  left-root-right [94]
     * `Postorder` left-right-root [145]
+    *  Level Order Traversal： `Queue` [102]
 * Traversal Method:
     * Recursion 
     * Non-Recursion: Stack
+    * Divide and Conquer (has return value)
+
+## Divide & Conquer ##
+####Merge Sort    `Stable`
+####Quick Sort
+* `Average：O(nlogn)` [Worst: O(n²)]

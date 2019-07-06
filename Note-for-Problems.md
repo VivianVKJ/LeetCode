@@ -128,15 +128,74 @@ public:
 **394. decode-string**
 * Stack处理嵌套的字符串：
     * 遇到']'说明短的循环结束，要在上一层的循环节上附加处理之后的循环节。
-    * 数字可能大于10，所以循环处理，   `count=count*10+s[i]-'0';`
+    * 数字可能大于10，所以循环处理，   `count=count*10+stack[i]-'0';`
     * 遇到'['，两个栈分别存`循环次数`和`当前字符串`
 * 递归的方法：
 
 **225. implement-stack-using-queue**
 * Method：save the numbers in an reserve order in the final queue;
     * `push(x)` dequeue all in the reserve queue and save all the numbers in another queue `temp`, `push(x)` then enqueue the numbers in temp.
-    * queue `reserve` save the final queue in a stack's way.
+    * queue `reserve` save the final queue in a stack'stack way.
 
 **394. implement-queue-using-stack**
 * Method1：like 225
 * Method2：only reserve the sort when `pop()` & `top()`
+
+## Binary Tree
+**144. Binary Tree Preorder Traversal**
+* Non-Recursion:
+```cpp
+    /* push root to stack first  
+     * then cout val
+     * then push right & left node into stack */
+    vector<int> preorderTraversal(TreeNode* root) {
+        vector<int> out;
+        TreeNode* temp = root;
+        stack<TreeNode*> stack;
+        stack.push(root);
+        while(!stack.empty()){
+            temp = stack.top();
+            stack.pop();
+            out.push_back(temp->val);
+            if(temp->right) stack.push(temp->right);
+            if(temp->left) stack.push(temp->left);
+        }
+    }
+```
+**94. Binary Tree Inorder Traversal**
+* Non-Recursion: Use Stack
+```cpp
+    /* travel left node to the leaf first 
+     * then cout val
+     * then push right node into stack */
+    vector<int> inorderTraversal(TreeNode* root) {
+        vector<int> out;
+        stack<TreeNode*> stack;
+        TreeNode* temp = root;
+        while(!stack.empty()||temp){
+            while(temp){
+                stack.push(temp);
+                temp = temp ->left;
+            }
+            temp = stack.top();
+            stack.pop();
+            out.push_back(temp->val);
+            temp=temp->right;
+        }
+        return out;
+    }
+```
+
+**94. Binary Tree Inorder Traversal**
+
+**102. Binary Tree Level Order Traversal**
+* Method:
+    * Use queue to traverse every level;
+    * Use `queue.size()` to save  current level then `clear()`;
+## Divide & Conquer
+**110. Balenced Binary Tree**
+* Method: Divide into left and right subTree
+* Tip: 
+    * `if(depth==-1)` return -1; not balenced;
+    * back to last layer: depth+1;
+
