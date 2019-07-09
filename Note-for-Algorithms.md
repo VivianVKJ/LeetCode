@@ -88,11 +88,12 @@ q.pop(),   q.push(x),  q.size();
     * Recursion 
     * Non-Recursion: Stack
     * Divide and Conquer (has return value)
-* Level Order Traversal
+* Level Order Traversal <=> `BFS`
     ```cpp
     while(!Queue.empty()) 
         for(this_level) 
     ```
+* [Exercise](https://www.jiuzhang.com/qa/983/)
 ####Binary Search Tree
 * Definition: 
     * The left subtree of a node contains only nodes with keys lesser than the node’s key.
