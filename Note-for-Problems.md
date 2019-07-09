@@ -186,16 +186,47 @@ public:
     }
 ```
 
-**94. Binary Tree Inorder Traversal**
+**145. Binary Tree Postorder Traversal**
 
 **102. Binary Tree Level Order Traversal**
-* Method:
+* Method 1： Just one queue:
     * Use queue to traverse every level;
     * Use `queue.size()` to save  current level then `clear()`;
+```cpp
+    while(!queue.empty()){
+        int current_len = queue.size();  
+        for(int i = 0; i <current_len;i++){
+            ... ...
+        }
+```
+* Method 2: Dummy Node
+    * Add ‘#’ after each layer
+
+## Binary Search Tree
+**700. Search in a Binary Search Tree**
+* Tip: recursion function must use `return`
+```cpp
+    if(val>root->val) return searchBST(root->right,val);
+    else return searchBST(root->left,val);
+```
+
 ## Divide & Conquer
 **110. Balenced Binary Tree**
 * Method: Divide into left and right subTree
 * Tip: 
     * `if(depth==-1)` return -1; not balenced;
     * back to last layer: depth+1;
+
+**98. Validate Binary Search Tree**
+* Method: 
+    * init recurion: root, `min-of-left` & `max-of-right` are both `null`
+    * when going to `root.left`, update the max as `root`
+    * when going to `root.right`, update the min as `root`
+```java
+    public boolean checkValid(TreeNode root, TreeNode min, TreeNode max){
+        if(root==null) return true;
+        if(min!=null && root.val<=min.val || max!=null && root.val>=max.val) return false;
+        return checkValid(root.left, min, root) && checkValid(root.right, root, max);
+    }
+```
 

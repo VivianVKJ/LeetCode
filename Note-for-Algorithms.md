@@ -68,7 +68,7 @@ stack<int> example;
     |:--:|:---:|:---:|:---:|:---:|:---:|
     |stack|[2,| [1,| [1,4 | [1,4,6 |[1,4,5|
     |last <|-|-|1|4|4|
-
+***
 ## Queue ##
 ##### Basic Usage
 ```cpp
@@ -76,6 +76,7 @@ queue<int> q;
 q.empty(), q.frount(), q.back();
 q.pop(),   q.push(x),  q.size();
 ```
+***
 ## Tree ##
 ####Binary Tree
 * Type: 
@@ -87,7 +88,19 @@ q.pop(),   q.push(x),  q.size();
     * Recursion 
     * Non-Recursion: Stack
     * Divide and Conquer (has return value)
-
+* Level Order Traversal
+    ```cpp
+    while(!Queue.empty()) 
+        for(this_level) 
+    ```
+####Binary Search Tree
+* Definition: 
+    * The left subtree of a node contains only nodes with keys lesser than the node’s key.
+    * The right subtree of a node contains only nodes with keys greater than the node’s key.
+    * The left and right subtree each must also be a binary search tree. There must be no duplicate nodes.
+* Feature:
+    * Inorder Traversal of Binary Search Tree: `an increasing sequence of numbers`
+***
 ## Divide & Conquer ##
 ####Merge Sort    `Stable`
 ####Quick Sort
