@@ -94,6 +94,7 @@ q.pop(),   q.push(x),  q.size();
         for(this_level) 
     ```
 * [Exercise](https://www.jiuzhang.com/qa/983/)
+* [Homework](https://www.cnblogs.com/zcy-backend/p/6675158.html)
 ####Binary Search Tree
 * Definition: 
     * The left subtree of a node contains only nodes with keys lesser than the node’s key.
@@ -106,3 +107,24 @@ q.pop(),   q.push(x),  q.size();
 ####Merge Sort    `Stable`
 ####Quick Sort
 * `Average：O(nlogn)` [Worst: O(n²)]
+
+## Hashmap ##
+* Basic Use
+    ```java
+    V put(K key,V value)
+    /* Associates the specified value with the specified key in this map. 
+     * If the map previously contained a mapping for the key, the old value is **replaced**.
+     */
+    V putIfAbsent(K key, V value)
+    /* If the specified key is not already associated with a value 
+     * (or is mapped to null) associates it with the given value and returns **null**
+     * else returns the current **value**. 
+     */
+    boolean remove(Object key,Object value)
+    /* Removes the mapping for the specified key from this map if present.
+     */
+    V get(Object key)
+    /* Returns the value to which the specified key is mapped
+     * or null if this map contains no mapping for the key.
+     */
+    ```
