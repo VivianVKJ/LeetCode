@@ -260,3 +260,21 @@ public:
     * while equal, move fast to the next;
     * if previos.next = current; (no duplicate): both step one to the next;
     * else previous.next = current.next;  current = previous.next;
+
+**206 Reverse Linked List**
+* Method 1: Iterator `use previous and temp`
+    * init: previous = null;
+    * for each node: (**swap**: temp = a; a=b;b=temp)
+        * temp = curr.next; 
+        * curr.next = previous; 
+        * previous = curr; 
+        * curr = temp;
+* Method 2: Recurision
+
+**92 Reverse Linked List II**
+* Method: 
+    * init `dummy node`
+    * reserve m~n
+        * record `preM`, `startM`, `endN` & `postN`;
+        * preM.next firstly set as null;
+    * modify `preM.next` & `endN.next`;
