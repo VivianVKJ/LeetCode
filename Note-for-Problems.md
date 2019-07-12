@@ -230,3 +230,33 @@ public:
     }
 ```
 
+## Graph
+**133. Clone Graph**
+* Method:
+    1. Clone `points`: Try to traverse: BFS<=>Queue
+    2. Clone `edges`
+> Solution:
+    1. new ArrayList(queue) && new HashMap<Key,Value>
+    2. copy root: put root to ArrayList
+    3. while(queue): add node to copy 
+
+## LinkList
+**83 Remove Duplicates from Sorted List**
+* Method:
+    * find duplicate   
+    * delete node: `previos.next = current.next;`
+* Edge case: 
+	* head=null?  
+    * next = null?
+
+**82 Remove Duplicates from Sorted List II**
+* Method 1: `Dummy Node`
+    * Head may be deleted, init a dummy node; dummy.next = head;
+    * head = dummy; (put the point start at dummy)
+    * compare head.next & head.next.next; if equal...
+* Method 2: `two pointers`
+    * previous = dummy; -- slow pointer;
+    * current -- fast pointer;
+    * while equal, move fast to the next;
+    * if previos.next = current; (no duplicate): both step one to the next;
+    * else previous.next = current.next;  current = previous.next;
