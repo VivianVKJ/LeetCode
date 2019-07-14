@@ -26,7 +26,7 @@ class Solution {
             head = head.next;
         }
         left.next = dummy_right.next;
-        right.next = null; //cut off
+        right.next = null; //cut off!
         return dummy_left.next;
     }
 }

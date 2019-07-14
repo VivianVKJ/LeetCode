@@ -204,7 +204,7 @@ public:
 
 ## Binary Search Tree
 **700. Search in a Binary Search Tree**
-* Tip: recursion function must use `return`
+* Tip: recursion function must use **`return`**
 ```cpp
     if(val>root->val) return searchBST(root->right,val);
     else return searchBST(root->left,val);
@@ -250,6 +250,7 @@ public:
     * next = null?
 
 **82 Remove Duplicates from Sorted List II**
+> Dummy Node 
 * Method 1: `Dummy Node`
     * Head may be deleted, init a dummy node; dummy.next = head;
     * head = dummy; (put the point start at dummy)
@@ -278,3 +279,24 @@ public:
         * record `preM`, `startM`, `endN` & `postN`;
         * preM.next firstly set as null;
     * modify `preM.next` & `endN.next`;
+
+**86 Partition List**
+* Method: `dummy_left & dummmy_right`
+* **key point:** `  right.next = null;`
+    * or it will cause a cycle (Class 6 - 56:44)
+
+**148 Sort List**
+* main function: `recurision`
+    * findMiddle()
+    * sortList `right`; mid.next = null;  sortList `left`
+    * merge
+* **key point:** `mid.next = null;`
+    * ??????
+    * or it will cause a cycle (Class 6 - 56:44)
+
+**143 Reorder List**
+* Method:
+    1. find mid
+    2. reverse second half
+    3. merge two halves
+    
