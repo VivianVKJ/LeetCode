@@ -285,6 +285,11 @@ public:
 * **key point:** `  right.next = null;`
     * or it will cause a cycle (Class 6 - 56:44)
 
+**19 Remove Nth Node From End of List**
+* `dummy node`
+
+> Two Pointers 
+
 **148 Sort List**
 * main function: `recurision`
     * findMiddle()
@@ -299,4 +304,16 @@ public:
     1. find mid
     2. reverse second half
     3. merge two halves
+
+**142 Linked List Cycle II**
+* Method:
+    * a = head --cycle_start
+    * b = cycle_start -- meet
+    * c = meet --back_to_cycle_start
+    * `b + c = cycle`
+* equation:
+    * fast = 2*slow --> a+b+n(b+c) = 2(a+b)
+    * --> a+b = n(b+c)
+    * --> a = (n-1)(b+c) +c = (n-1)*cycle + back_to_cycle_start
+* Solution: after meet, put `slow` back to `head`, fast `step 1` each time, they will `meet at the start point `of the cycle
     
