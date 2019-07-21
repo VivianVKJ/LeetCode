@@ -1,7 +1,7 @@
 
 /*
  * @lc app=leetcode id=46 lang=java
- * DFS:
+ * DFS: O(n!)
  * Recurision: choose one num and add to currentlist
  * back to last layer: move this num from currentlist and record
  * Quit condition: list.size()==nums.size()
@@ -24,17 +24,18 @@ class Solution {
                     boolean[] record,List<List<Integer>> res){
         if(nums.length==currentlist.size()) {
             res.add(new ArrayList<>(currentlist));
+            //Must new an ArrayList so save in res
             return;   //end condition
         }
         else{
             for (int i=0;i<nums.length;i++){
-
                 if(record[i]==false){
                     currentlist.add(nums[i]);
                     record[i]=true;
                     DFS(nums,currentlist,record,res);
                     record[i]=false;
                     currentlist.remove(currentlist.size()-1);
+                    //remove the newest number added to currentlist
                 }
             }
         }
