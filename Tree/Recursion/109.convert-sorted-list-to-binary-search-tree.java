@@ -1,7 +1,6 @@
 /*
  * @lc app=leetcode id=109 lang=java
- * -10,-3,0,5,9'
- *  s   s   f
+ * O(nlogn)
  * [109] Convert Sorted List to Binary Search Tree
  */
 /**
