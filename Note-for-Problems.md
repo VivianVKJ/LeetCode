@@ -317,3 +317,31 @@ public:
     * --> a = (n-1)(b+c) +c = (n-1)*cycle + back_to_cycle_start
 * Solution: after meet, put `slow` back to `head`, fast `step 1` each time, they will `meet at the start point `of the cycle
     
+## DFS
+* Modle Example
+    * 46 Permulations
+    * 78 Subsets
+
+**46 Permulations**
+```cpp
+DFS(...){
+    egde condition;
+    for(i=0;i<n;i++){
+        add current[i];
+        DFS;
+        current.remove(current.length-1)
+    }
+}
+```
+
+**78 Subsets**
+```cpp
+DFS(...int position ...){
+    egde condition;
+    for(i=position;i<n;i++){
+        add current[i];
+        DFS;
+        current.remove(current.length-1)
+    }
+}
+```

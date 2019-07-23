@@ -22,7 +22,6 @@ class Solution {
             DFS(nums,currentList,i+1,result);
             currentList.remove(currentList.size()-1);
         }
-
     }
 }
 
