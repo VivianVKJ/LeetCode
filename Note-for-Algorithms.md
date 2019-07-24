@@ -137,3 +137,6 @@ DFS <=> All Solutions
 
 ## BFS ##
 BFS <=> Start from one node
+
+## Sorting ##
+    Collection.sort(nums)
