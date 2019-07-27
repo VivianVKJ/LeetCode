@@ -345,3 +345,13 @@ DFS(...int position ...){
     }
 }
 ```
+
+## BFS
+
+**127 Word Ladder**
+* Method: BFS
+* find next word:
+    1. find in word list (diff==1) `795ms`
+        * queue.size() will change when queue.offer
+        * record queue.size() when traverse queue
+    2. change letter 1-26
