@@ -109,6 +109,10 @@ q.pop(),   q.push(x),  q.size();
 * `Average：O(nlogn)` [Worst: O(n²)]
 
 ## Hashmap ##
+* Operations 
+    * Insert - O(1)
+    * Delete - O(1) 
+    * Find - O(1)
 * Basic Use
     ```java
     V put(K key,V value)
