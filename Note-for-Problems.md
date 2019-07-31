@@ -355,3 +355,19 @@ DFS(...int position ...){
         * queue.size() will change when queue.offer
         * record queue.size() when traverse queue
     2. change letter 1-26
+
+## Two Pointers ##
+
+**15 3Sum**
+* the first number: base, `left`=base+1, `right` =nums.length-1;
+    * outter loop: while(base<len)
+    * inner loop: while(left<right)
+* pointer movement condition in inner loop:
+    * tempSum<target: left++;
+    * tempSum>target: right--;
+* Watch out: `remove duplicate`
+
+
+**16 3Sum Closest**
+
+**18 4Sum**
