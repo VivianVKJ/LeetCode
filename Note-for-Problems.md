@@ -346,6 +346,11 @@ DFS(...int position ...){
 }
 ```
 
+**99 Recover Binary Search Tree**
+
+* If one more exceptions are found, override the current node to the Second Mistaken Node. 
+* Because `if a series of mistaken nodes are found`, the only possible way to correct them with one swap is to switch the `head` and `tail` node.
+
 ## BFS
 
 **127 Word Ladder**
