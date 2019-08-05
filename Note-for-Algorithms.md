@@ -147,3 +147,10 @@ BFS <=> Start from one node
 
 ## Two Pointers ##
 
+
+
+## String
+
+- Basic Usage
+  - public String substring(int beginIndex,int endIndex)
+

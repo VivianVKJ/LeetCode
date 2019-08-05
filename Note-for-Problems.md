@@ -63,7 +63,7 @@ Then use two extra vectors to record how many times each number(0 to 9) occurs. 
 >> **a.** if (i=people <= citations[**i-1**]) go on people++;
 >> **b.** once people > citations[i-1]; no enough people have citations of equal number. 
 >> **c.** return **r-1**: return last element <= target
-    
+
 ```cpp
 /*
  * h papers at least h citations
@@ -105,8 +105,9 @@ public:
 ```
 **35. search-insert-position**
 > Solution: 
-    1. Binary Search Type **3: Find 1st element > target**
-    >> if target is not found, the 1st elemnent > target `will be the index we want. `
+>     1. Binary Search Type **3: Find 1st element > target**
+>
+> > if target is not found, the 1st elemnent > target `will be the index we want. `
 
 **69. sqrt-x**
 * Binary Search, find last element < function(target);
@@ -316,7 +317,7 @@ public:
     * --> a+b = n(b+c)
     * --> a = (n-1)(b+c) +c = (n-1)*cycle + back_to_cycle_start
 * Solution: after meet, put `slow` back to `head`, fast `step 1` each time, they will `meet at the start point `of the cycle
-    
+  
 ## DFS
 * Modle Example
     * 46 Permulations
@@ -335,6 +336,7 @@ DFS(...){
 ```
 
 **78 Subsets**
+
 ```cpp
 DFS(...int position ...){
     egde condition;
@@ -350,6 +352,11 @@ DFS(...int position ...){
 
 * If one more exceptions are found, override the current node to the Second Mistaken Node. 
 * Because `if a series of mistaken nodes are found`, the only possible way to correct them with one swap is to switch the `head` and `tail` node.
+
+**93 Restore IP address**
+
+* need not record index
+* use `s.substring`
 
 ## BFS
 
