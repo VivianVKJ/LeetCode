@@ -322,6 +322,7 @@ public:
 * Modle Example
     * 46 Permulations
     * 78 Subsets
+    * 79 Word Search
 
 **46 Permulations**
 ```cpp
@@ -357,6 +358,37 @@ DFS(...int position ...){
 
 * need not record index
 * use `s.substring`
+
+**79 Word Search**
+
+> Classic DFS in 2D Matrix 
+>
+> 1. if (`end` ) return true;
+>
+> 2. if(`wrong`) return false;
+>
+> 3. right condition: **make a record** & go to next layer
+>
+>    * traverse 4 conditions : if `ture`<=> found an answer; **`return ture`** 
+>
+>    ------
+>
+>    ???
+>
+>    * **remove record** & return false;
+
+
+
+**77 Combination**
+
+> 1. the valid range for the 1st position is [1, n-k+1]
+> 2. the valid range for the i-th position is [number we selected for previous position+1, n-k+1+i]
+
+```java
+for(int i=index;i<=n-k+1+current.size();i++){……}
+```
+
+
 
 ## BFS
 
