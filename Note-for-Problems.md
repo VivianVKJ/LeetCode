@@ -390,6 +390,12 @@ for(int i=index;i<=n-k+1+current.size();i++){……}
 
 
 
+**662 Maximum Width of Binary Tree**
+
+* Tips:  int ans cannot be modified by function,  use `int[] ans`
+
+* DFS Method:  record left most nodes at each level
+
 ## BFS
 
 **127 Word Ladder**
