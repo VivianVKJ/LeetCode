@@ -1,0 +1,21 @@
+/*
+ * @lc app=leetcode id=387 lang=java
+ *
+ * [387] First Unique Character in a String
+ */
+class Solution {
+    public int firstUniqChar(String s) {
+        int[] map = new int[256];
+        int ans = 0;
+        if(s.length()<=0) return -1;
+        for(int i = 0;i<s.length();i++){
+            map[s.charAt(i)]++;
+        }
+        for(int i = 0;i<s.length();i++){
+            if(map[s.charAt(i)]==1)
+                return i;
+        }
+        return -1;
+    }
+}
+

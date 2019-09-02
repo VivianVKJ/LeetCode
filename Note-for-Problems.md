@@ -415,3 +415,13 @@ for(int i=index;i<=n-k+1+current.size();i++){……}
 **16 3Sum Closest**
 
 **18 4Sum**
+
+**3 Longest Substring Without Repeating Characters** 
+
+* 最开始的思路错在：右指针碰到重复时，左指针不应该直接移动到右指针位置，否则会漏掉很多可能。
+* Correct：when the right pointer meet a duplicate, map[s.atchar(left)] = false & `left++`; 
+
+## Dynamic Programming
+* Modle Questions
+  * 120 Triangle
+

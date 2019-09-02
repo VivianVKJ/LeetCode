@@ -5,6 +5,23 @@
  * [3] Longest Substring Without Repeating Characters
  */
 class Solution {
+ public int lengthOfLongestSubstring(String s) {  //Aug 22
+        if(s.length() ==0) return 0;
+        boolean[] asc = new boolean[256]; //ascii table
+        int left=0,right=0,result=0;
+        while(left<s.length()){          
+            while(right<s.length() && asc[s.charAt(right)]==false){
+                asc[s.charAt(right)]=true;
+                result = Math.max(right-left+1,result);
+                right++;
+            }
+            //Here Misunderstood
+            asc[s.charAt(left)]=false;
+            left++;         
+        }
+        return result;
+    }
+
     public int lengthOfLongestSubstring0(String s) {
         if(s.length()<=1) return s.length();
         int left = 0,right=0,result=0;
@@ -20,7 +37,7 @@ class Solution {
         return result;
     }
 
-    public int lengthOfLongestSubstring(String s) {
+    public int lengthOfLongestSubstring_Submibt1(String s) {
         if(s.length()<=1) return s.length();
         int left = 0,right=0,result=0;
         HashMap<Character, Integer> map = new HashMap<Character, Integer>();
