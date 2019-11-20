@@ -393,8 +393,12 @@ for(int i=index;i<=n-k+1+current.size();i++){……}
 **662 Maximum Width of Binary Tree**
 
 * Tips:  int ans cannot be modified by function,  use `int[] ans`
-
 * DFS Method:  record left most nodes at each level
+
+**139 Word Break**
+
+* DFS is not appropriate in this question
+* use HashSet is more convinient
 
 ## BFS
 
@@ -430,4 +434,29 @@ for(int i=index;i<=n-k+1+current.size();i++){……}
 ## Dynamic Programming
 * Modle Questions
   * 120 Triangle
+
+**139  Word Break**
+
+The intuition behind this approach is that the given problem (s) can be divided into subproblems s1 and s2. If these subproblems individually satisfy the required conditions, the complete problem, s also satisfies the same. 
+
+Method1: DP
+
+1. State: boolean[i]  substring of lenth i can be break
+2. Init: [0]=true;
+3. Function: [abcde] --- (abcd)(e) || (abc)(de)..
+4. Result: [n+1]
+
+Method2: Recursion with memoization
+
+
+
+## Hash
+
+**260 HashSet**
+
+```java
+ Object[] t = hash.toArray();
+        for(..)
+        ans[i]=(int)t[i++];
+```
 

@@ -1,6 +1,9 @@
 /*
  * @lc app=leetcode id=79 lang=java
- *
+ * //我的问题： 
+//返回类型boolean
+//先写false 再写ture
+//return value 怎么取？
  * [79] Word Search
  */
 class Solution {

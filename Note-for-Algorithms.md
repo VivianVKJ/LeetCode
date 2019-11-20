@@ -134,6 +134,8 @@ q.pop(),   q.push(x),  q.size();
     public V get(Object key)
     /* Returns the value to which the specified key is mapped,   * or null if this map contains no mapping for the key.
      */
+    public Set getOrDefault(Object key,Object defaultValue)
+    /* Returns the value to which the specified key is mapped, or defaultValue if this map contains no mapping for the key. */
     ```
 
 ## DFS ##
@@ -144,6 +146,14 @@ BFS <=> Start from one node
 
 ## Sorting ##
     Collection.sort(nums)
+
+* sorting an 2-dimension array by its element:
+
+```java
+Arrays.sort(nums,((x,y)->x[0]-y[0]));
+```
+
+
 
 ## Two Pointers ##
 
@@ -156,3 +166,27 @@ BFS <=> Start from one node
 
 ## Dynamic Programming
 
+* Longest Comman *Sequence*
+* Longest Comman *Substring* <should be continuous>
+
+
+
+## Input & Output
+
+* List<int[] > to int\[][]:  `result.toArray(new int\[0][0]);`
+* Integer.MAX_VALUE = 2147483647
+
+
+
+## Heap
+
+* Implement: PriorityQueue
+
+  * 1)  for HashMap
+
+  ```
+  PriorityQueue<Integer> heap = new PriorityQueue<Integer>( 
+  	(x,y) -> hash.get(x)- hash.get(y));
+  ```
+
+  
