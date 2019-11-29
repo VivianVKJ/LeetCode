@@ -1,6 +1,6 @@
 /*
  * @lc app=leetcode id=706 lang=java
- *
+ * Copy
  * [706] Design HashMap
  */
 

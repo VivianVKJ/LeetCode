@@ -3,7 +3,6 @@
  *
  * [1013] Partition Array Into Three Parts With Equal Sum
  */
-
 // @lc code=start
 class Solution {
     public boolean canThreePartsEqualSum(int[] A) {
