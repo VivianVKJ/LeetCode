@@ -184,9 +184,18 @@ Arrays.sort(nums,((x,y)->x[0]-y[0]));
 
   * 1)  for HashMap
 
-  ```
+  ```java
   PriorityQueue<Integer> heap = new PriorityQueue<Integer>( 
   	(x,y) -> hash.get(x)- hash.get(y));
   ```
 
+  ```java
+  PriorityQueue<Integer> que = new PriorityQueue( new Comparator<Integer>() {
+              public int compare(Character e1,Character e2) {
+                  return e2 - e1;//Max-Heap
+              }
+  });
+  PriorityQueue<Integer>que = new PriorityQueue<Integer>((x,y)->(y-x));
+  ```
+  
   

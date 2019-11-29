@@ -5,7 +5,17 @@
  */
 class Solution {
     public int maxProfit(int[] prices) {
-            
+       int n = prices.length;
+        if(n<=1) return 0;
+        int min = Integer.MAX_VALUE, ans = 0;
+        for(int i=0;i<n;i++){
+            min = Math.min(prices[i],min);
+            ans = Math.max(ans, prices[i]-min);
+        }
+        return ans;
+    }
+    public int maxProfit_DP(int[] prices) {
+        //gain --> 53. Maximun-subarray 
         int n = prices.length;
         if(n<=1) return 0;       
         int[] gain = new int[n-1];

@@ -4,7 +4,20 @@
  * [53] Maximum Subarray
  */
 class Solution {
-    public int maxSubArray(int[] nums){
+    public int maxSubArray(int[] nums) {
+        int n = nums.length;
+        if(n==0) return 0;
+        int[] dp = new int[n];
+        int ans = nums[0];
+        dp[0] = nums[0];
+        for(int i=1;i<n;i++){
+            dp[i] = Math.max(dp[i-1]+nums[i],nums[i]);
+            ans = Math.max(ans,dp[i]);
+        }
+        return ans;
+    }
+    
+    public int maxSubArray_Recurrsion(int[] nums){
         if(nums.length==1) return nums[0];
         return sum(nums,0,nums.length-1);
     }

@@ -56,12 +56,12 @@ class Solution {
         //map: old -- new 
 
         for(Node ori:map.keySet()){   //get old Node set
-            System.out.println("ori:"+ori.val);
+            System.out.println('ori:'+ori.val);
             Node cpy = map.get(ori);  //get old Node ori's new
             if(ori.neighbors!=null){
                 for(Node nei:ori.neighbors){      
                     Node newNeighbor = map.get(nei);
-                    System.out.println("nei:"+nei.val+" ,nei'"+newNeighbor.val);
+                    System.out.println('nei:'+nei.val+' ,nei''+newNeighbor.val);
                     cpy.neighbors.add(newNeighbor);
                 }
             }
