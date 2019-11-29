@@ -23,7 +23,6 @@ class Solution {
                 count++;
             }
         }
-    
         if(count>=3) return true;
         return false;
     }
