@@ -13,7 +13,7 @@
  * }
  */
 class Solution {
-    public List<Integer> postorderTraversal(TreeNode root) {
+    public List<Integer> postorderTraversal_DFS(TreeNode root) {
         List<Integer> out = new ArrayList<>();
         postTraversal(root, out);
         return out;
