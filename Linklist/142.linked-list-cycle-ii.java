@@ -31,5 +31,21 @@ public class Solution {
         }
         return null;
     }
+        public ListNode detectCycle_Dec4(ListNode head) {
+        if(head==null) return null;
+        ListNode left = head, right = head;
+        while(right.next!=null){
+            right = right.next.next;
+            if(right==null) return null;
+            left = left.next;
+            if(left==right) break;
+        }
+        if(right.next==null) return  null;
+        while(head!=left){
+            head=head.next;
+            left=left.next;
+        }
+        return head;
+    }
 }
 

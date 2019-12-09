@@ -400,6 +400,10 @@ for(int i=index;i<=n-k+1+current.size();i++){……}
 * DFS is not appropriate in this question
 * use HashSet is more convinient
 
+**200 Number of Islands**
+
+**695 Max Area of Island**
+
 ## BFS
 
 **127 Word Ladder**
