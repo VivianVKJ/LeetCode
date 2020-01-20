@@ -196,6 +196,15 @@ Arrays.sort(points, (p1, p2) -> p1[0] * p1[0] + p1[1] * p1[1] - p2[0] * p2[0] - 
 * List<int[] > to int\[][]:  `result.toArray(new int\[0][0]);`
 * Integer.MAX_VALUE = 2147483647
 * Integer.MIN_VALUE = -2147483648
+* String
+  * Remove Space:  `str.replaceAll(" ","");`
+  * Split with comma: `str.split(",");`
+  * Split with **space**: `str.split("\\s+");`
+  * Get with words: `word.replaceAll("[^a-z^A-Z]","");`
+
+
+
+
 
 
 
