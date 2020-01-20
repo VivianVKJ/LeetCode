@@ -6,7 +6,30 @@
 
 // @lc code=start
 class Solution {
-    public int trap(int[] height) {
+    public int trap_bruteForce(int[] height){
+        int ans = 0;
+        //for each position
+        //ans+=min(left_max, right_max) - heigh[i];
+        return ans;
+    }
+    public int trap(int[] height){
+        //Dynamic Programming
+        //use two arrays to save time of finding max
+        int n = height.length; if(n<=1) return 0;
+        int[] left = new int[n]; int[] right = new int[n];
+        left[0] = height[0];
+        for(int i=1;i<n;i++)
+            left[i] = Math.max(height[i],left[i-1]);
+        right[n-1] = height[n-1];
+        for(int i=n-2;i>=0;i--)
+            right[i] = Math.max(height[i],right[i+1]);
+        int ans = 0;
+        for(int i=0;i<n;i++)
+            ans+=Math.min(left[i],right[i]) - height[i];
+        return ans;
+    }
+
+    public int trap_twoPointers(int[] height) {
         if(height.length<=1) return 0;
         int left_max = 0, right_max =0;
         int l =0, r=height.length-1;

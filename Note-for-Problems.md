@@ -452,16 +452,33 @@ for(int i=index;i<=n-k+1+current.size();i++){……}
 
 The intuition behind this approach is that the given problem (s) can be divided into subproblems s1 and s2. If these subproblems individually satisfy the required conditions, the complete problem, s also satisfies the same. 
 
-Method1: DP
+* Method1: DP
 
 1. State: boolean[i]  substring of lenth i can be break
 2. Init: [0]=true;
 3. Function: [abcde] --- (abcd)(e) || (abc)(de)..
 4. Result: [n+1]
 
-Method2: Recursion with memoization
+* Method2: Recursion with memoization
 
 
+
+**42 Trap Rain Water**
+
+```java
+int ans = 0;
+ans+=min(left_max, right_max) - heigh[i];
+```
+* Method 1: Brute Force
+
+* Method 2: Dynamic Programming
+
+```java
+left[i] = Math.max(height[i],left[i-1]);
+right[i] = Math.max(height[i],right[i+1]);
+```
+
+* Method 3: Two Pointers
 
 ## Hash
 
