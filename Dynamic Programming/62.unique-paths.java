@@ -40,11 +40,8 @@ class Solution {
 
 
     public int uniquePaths_TLE(int m, int n) {
-        boolean[][] went = new boolean[m][n]; //default false
         int res[] = new int[1];
-        int cm = 0, cn=0;
-        went[cm][cn]=true;
-        DFS(m,n,cm,cn,went,res);
+        DFS(m,n,0,0,went,res);
         return res[0];
     }
     public void DFS(int m, int n, int cm, int cn, boolean[][] went, int[] res){
@@ -52,8 +49,6 @@ class Solution {
             res[0]++; return;
         }
         if(cm==m || cn==n) return;
-        
-        went[cm][cn]=true;
         DFS(m,n,cm+1,cn,went,res);
         DFS(m,n,cm,cn+1,went,res);
 

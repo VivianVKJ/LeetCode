@@ -203,6 +203,10 @@ public:
 * Method 2: Dummy Node
     * Add ‘#’ after each layer
 
+**116.  Populating Next Right Pointers in Each Node**
+
+
+
 ## Binary Search Tree
 **700. Search in a Binary Search Tree**
 * Tip: recursion function must use **`return`**
@@ -413,6 +417,11 @@ for(int i=index;i<=n-k+1+current.size();i++){……}
         * queue.size() will change when queue.offer
         * record queue.size() when traverse queue
     2. change letter 1-26
+
+**994 Rotting Oranges**
+
+* Optimize by HashMap
+* use HashMap to record the depth
 
 ## Two Pointers ##
 

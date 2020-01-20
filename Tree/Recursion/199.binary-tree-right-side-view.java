@@ -1,6 +1,6 @@
 /*
  * @lc app=leetcode id=199 lang=java
- *
+ * [1,2,3,null,null,null,4]
  * [199] Binary Tree Right Side View
  */
 /**
@@ -13,8 +13,20 @@
  * }
  */
 class Solution {
+/*     public List<Integer> rightSideView_GS(TreeNode root){
+        List<Integer> ans = new ArrayList<>();
+        if(root==null) return ans;
+        getRightNodes(root,ans);
+        return ans;
+    }
 
-    public List<Integer> rightSideView (TreeNode root){
+     public void getRightNodes(TreeNode root,List<Integer> ans){
+        if(root==null) return;
+        ans.add(root.val);
+        getRightNodes(root.right,ans);
+    } */
+
+    public List<Integer> rightSideView_DFS (TreeNode root){
         List<Integer> res = new ArrayList<>();
         dfs(root,res,0);
         return res;

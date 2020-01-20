@@ -48,7 +48,8 @@ int find(vector<int>& nums, int target){
 **4. use subFuction as condition**
 
 **5. function changes with index?**
-> #275 attention to what gonna be return 
+
+**275.  attention to what gonna be return** 
 
 ***
 ## Stack ##
@@ -153,7 +154,26 @@ BFS <=> Start from one node
 Arrays.sort(nums,((x,y)->x[0]-y[0]));
 ```
 
+* sort an 2-dimension array by dis
 
+```java
+Arrays.sort(points, (p1, p2) -> p1[0] * p1[0] + p1[1] * p1[1] - p2[0] * p2[0] - p2[1] * p2[1]);
+```
+
+* sort an 2-dimiension arraylist by both start & end 
+
+```java
+ Collections.sort(events, (a, b) -> a[0] != b[0] ? a[0]-b[0] : a[1]-b[1]);
+```
+
+## Topological
+
+* **Dependency  a—>b**
+  * a happened before b
+  * b depends on a
+  * a.Indegree = 0, b.indegree=1;
+* Method: HashMap+BFS;
+* Example: Course Schedule, lc 207,210
 
 ## Two Pointers ##
 
@@ -175,6 +195,7 @@ Arrays.sort(nums,((x,y)->x[0]-y[0]));
 
 * List<int[] > to int\[][]:  `result.toArray(new int\[0][0]);`
 * Integer.MAX_VALUE = 2147483647
+* Integer.MIN_VALUE = -2147483648
 
 
 
@@ -193,9 +214,12 @@ Arrays.sort(nums,((x,y)->x[0]-y[0]));
   PriorityQueue<Integer> que = new PriorityQueue( new Comparator<Integer>() {
               public int compare(Character e1,Character e2) {
                   return e2 - e1;//Max-Heap
-              }
-  });
+              } });
   PriorityQueue<Integer>que = new PriorityQueue<Integer>((x,y)->(y-x));
   ```
   
-  
+
+
+
+## Union Find
+
