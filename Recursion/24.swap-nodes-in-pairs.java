@@ -12,7 +12,7 @@
  * }
  */
 class Solution {
-    public ListNode swapPairs(ListNode head) {
+    public ListNode swapPairs_iter(ListNode head) {
         ListNode dummy = new ListNode(0);
         dummy.next = head;
         head = dummy;
@@ -28,6 +28,14 @@ class Solution {
             }
         }
         return dummy.next;
+    }
+    //Feb 9th Recursion
+    public ListNode swapPairs(ListNode head){
+        if(head==null || head.next==null) return head;
+        ListNode reverseHead = swapPairs(head.next);
+        head.next.next = head; //trickey
+        head.next = null;
+        return reverseHead;
     }
 }
 
