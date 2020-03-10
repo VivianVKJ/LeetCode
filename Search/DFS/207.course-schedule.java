@@ -4,7 +4,8 @@
  * [207] Course Schedule
  */
 
-// @lc code=start
+java.util.*;// @lc code=start
+
 class Solution {
     HashMap<Integer,HashSet<Integer>> map;
     List<Integer> trace ;

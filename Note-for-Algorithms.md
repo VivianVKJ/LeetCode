@@ -97,17 +97,23 @@ q.pop(),   q.push(x),  q.size();
     * `Inorder`  left-root-right [94]
     * `Postorder` left-right-root [145]
     *  Level Order Traversal： `Queue` [102]
+    
 * **Traversal** **Method**:
   
     * Recursion 
     * Non-Recursion: Stack
     * Divide and Conquer (has return value)
+    
 * **Level Order Traversal <=> `BFS`**
   
     ```cpp
     while(!Queue.empty()) 
         for(this_level) 
     ```
+    
+* Morris
+
+    ![image-20200229233457712](/Users/vivian/Library/Application Support/typora-user-images/image-20200229233457712.png)
 * [Exercise](https://www.jiuzhang.com/qa/983/)
 * [Homework](https://www.cnblogs.com/zcy-backend/p/6675158.html)
 ##Binary Search Tree
@@ -173,7 +179,7 @@ DFS <=> All Solutions
 # BFS #
 BFS <=> Start from one node
 
-# Sorting #
+# Sort #
     Collection.sort(nums)
 
 * sorting an 2-dimension array by its element:
@@ -213,6 +219,8 @@ Arrays.sort(points, (p1, p2) -> p1[0] * p1[0] + p1[1] * p1[1] - p2[0] * p2[0] - 
   - public String substring(int beginIndex,int endIndex)
 
 # Dynamic Programming
+
+
 
 * Longest Comman *Sequence*
 * Longest Comman *Substring* <should be continuous>

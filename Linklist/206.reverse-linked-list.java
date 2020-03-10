@@ -13,6 +13,14 @@
  */
 class Solution {
     public ListNode reverseList(ListNode head) {
+        //Recursion
+        if(head==null || head.next ==null) return head;
+        ListNode reverseHead = reverseList(head.next);
+        head.next.next = head; //trickey [1]: head.next hasn't change
+        head.next=null;
+        return reverseHead; //always return reverseHead
+    }
+    public ListNode reverseList_2(ListNode head) {
         ListNode pre = null;
         while(head!=null){
             ListNode post = head.next;

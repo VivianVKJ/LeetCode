@@ -32,10 +32,10 @@ class Solution {
     //Feb 9th Recursion
     public ListNode swapPairs(ListNode head){
         if(head==null || head.next==null) return head;
-        ListNode reverseHead = swapPairs(head.next);
-        head.next.next = head; //trickey
-        head.next = null;
-        return reverseHead;
+        ListNode sec = head.next;
+        head.next = swapPairs(head.next.next);
+        sec.next = head;
+        return sec;
     }
 }
 
