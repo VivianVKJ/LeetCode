@@ -217,6 +217,28 @@ public:
     else return searchBST(root->left,val);
 ```
 
+### 108. Convert Sorted Array to Binary Search Tree
+
+* Tip: Recursion / Divide and Conquer
+
+  * BST: left.val <= root.val <= right.val
+  * Height Balanced: Node(root.left) - Node(root.right) <=1
+  * T(n)  = 2* T(n/2) +O(1)
+
+  ![image-20200317104159795](/Users/vivian/Library/Application Support/typora-user-images/image-20200317104159795.png)
+
+```python
+def build(arr, l, r):
+	if(l>r): return None
+	m = l + (r-1) / 2
+	root = TreeNode(arr[m])
+	root.left = build(arr,1,m-1)
+  root.right = builf(arr,m+1,r)
+  return root
+```
+
+
+
 ## BFS
 
 ### **127 Word Ladder**
