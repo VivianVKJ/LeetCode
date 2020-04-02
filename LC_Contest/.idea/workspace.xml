@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ad0ac76-5b02-4c4c-8ecb-39076473cbcb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../10.regular-expression-matching.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../207.course-schedule.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../6.zig-zag-conversion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Linklist/206.reverse-linked-list.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Linklist/206.reverse-linked-list.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Note-for-Algorithms.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Note-for-Algorithms.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Note-for-Problems.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Note-for-Problems.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Recursion/24.swap-nodes-in-pairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Recursion/24.swap-nodes-in-pairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LeetCode_Review/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LeetCode_Review/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +18,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/C178.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/C182.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+            <state relative-caret-position="198">
+              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+              <folding>
+                <element signature="method#reverse#0;class#C182#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/UndergroundSys.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,15 +42,93 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/C179.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/StringBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="81" column="30" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
+            <state relative-caret-position="1908">
+              <caret line="135" selection-start-line="135" selection-end-line="135" />
               <folding>
-                <element signature="method#numTimesAllBlue#0;class#C179#0" />
-                <element signature="method#numTimesAllBlue1#0;class#C179#0" />
-                <element signature="method#numOfMinutes#0;class#C179#0" />
+                <element signature="e#2871#2872#0" expanded="true" />
+                <element signature="e#2896#2897#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/AbstractStringBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11484">
+              <caret line="670" selection-start-line="670" selection-end-line="670" />
+              <folding>
+                <element signature="e#1327#1328#0" expanded="true" />
+                <element signature="e#1369#1370#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8010">
+              <caret line="508" selection-start-line="508" selection-end-line="508" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/Collections.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="33786">
+              <caret line="2034" selection-start-line="2034" selection-end-line="2034" />
+              <folding>
+                <element signature="e#83250#83251#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/HashSet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3258">
+              <caret line="219" selection-start-line="219" selection-end-line="219" />
+              <folding>
+                <element signature="e#8112#8113#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10206">
+              <caret line="611" selection-start-line="611" selection-end-line="611" />
+              <folding>
+                <element signature="e#24396#24397#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/System.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5274">
+              <caret line="333" selection-start-line="333" selection-end-line="333" />
+              <folding>
+                <element signature="e#11597#11598#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,19 +151,17 @@
       <list>
         <option value="$PROJECT_DIR$/src/C178.java" />
         <option value="$PROJECT_DIR$/src/C179.java" />
+        <option value="$PROJECT_DIR$/src/C181.java" />
+        <option value="$PROJECT_DIR$/src/C182.java" />
+        <option value="$PROJECT_DIR$/src/UndergroundSys.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="598" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="33" />
+    <option name="y" value="24" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -85,8 +169,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -106,6 +190,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -114,6 +199,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -127,7 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.C179">
+  <component name="RunManager" selected="Application.UndergroundSys">
     <configuration name="C178" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="C178" />
       <module name="LC_Contest" />
@@ -142,8 +228,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C181" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C181" />
+      <module name="LC_Contest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C182" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C182" />
+      <module name="LC_Contest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UndergroundSys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UndergroundSys" />
+      <module name="LC_Contest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UndergroundSys" />
+        <item itemvalue="Application.C182" />
+        <item itemvalue="Application.C181" />
         <item itemvalue="Application.C179" />
         <item itemvalue="Application.C178" />
       </list>
@@ -165,17 +275,23 @@
       <workItem from="1583812213263" duration="204000" />
       <workItem from="1583855905375" duration="5348000" />
       <workItem from="1583862634458" duration="26000" />
+      <workItem from="1584844926714" duration="1383000" />
+      <workItem from="1585449283606" duration="5861000" />
+      <workItem from="1585531549503" duration="447000" />
+      <workItem from="1585532093375" duration="50000" />
+      <workItem from="1585532163859" duration="11000" />
+      <workItem from="1585710246725" duration="21000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11990000" />
+    <option name="totallyTimeSpent" value="19763000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="33" y="24" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.15379113" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16380544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -184,8 +300,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20361446" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2686747" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24888393" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40848213" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -194,7 +310,8 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32891566" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32738853" />
+      <window_info anchor="bottom" id="Statistic" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -204,10 +321,23 @@
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="RestServices" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/C181.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/C178.java">
@@ -228,6 +358,109 @@
             <element signature="method#numTimesAllBlue#0;class#C179#0" />
             <element signature="method#numTimesAllBlue1#0;class#C179#0" />
             <element signature="method#numOfMinutes#0;class#C179#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/C181.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/C182.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding>
+            <element signature="method#reverse#0;class#C182#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UndergroundSys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1908">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
+          <folding>
+            <element signature="e#2871#2872#0" expanded="true" />
+            <element signature="e#2896#2897#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/AbstractStringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11484">
+          <caret line="670" selection-start-line="670" selection-end-line="670" />
+          <folding>
+            <element signature="e#1327#1328#0" expanded="true" />
+            <element signature="e#1369#1370#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8010">
+          <caret line="508" selection-start-line="508" selection-end-line="508" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33786">
+          <caret line="2034" selection-start-line="2034" selection-end-line="2034" />
+          <folding>
+            <element signature="e#83250#83251#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3258">
+          <caret line="219" selection-start-line="219" selection-end-line="219" />
+          <folding>
+            <element signature="e#8112#8113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10206">
+          <caret line="611" selection-start-line="611" selection-end-line="611" />
+          <folding>
+            <element signature="e#24396#24397#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5274">
+          <caret line="333" selection-start-line="333" selection-end-line="333" />
+          <folding>
+            <element signature="e#11597#11598#0" expanded="true" />
           </folding>
         </state>
       </provider>
