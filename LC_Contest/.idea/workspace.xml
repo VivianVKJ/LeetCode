@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ad0ac76-5b02-4c4c-8ecb-39076473cbcb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/LeetCode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1092.shortest-common-supersequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../132.palindrome-partitioning-ii.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../712.minimum-ascii-delete-sum-for-two-strings.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LC_Contest/UndergroundSys.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LC_Contest/UndergroundSys.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LeetCode_Review/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LeetCode_Review/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,26 +22,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/C182.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Biweekly/B23.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+            <state relative-caret-position="216">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding>
-                <element signature="method#reverse#0;class#C182#0" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#countLargestGroup#0;class#B23#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UndergroundSys.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/C183.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="288">
+              <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -154,12 +156,14 @@
         <option value="$PROJECT_DIR$/src/C181.java" />
         <option value="$PROJECT_DIR$/src/C182.java" />
         <option value="$PROJECT_DIR$/src/UndergroundSys.java" />
+        <option value="$PROJECT_DIR$/src/Biweekly/B23.java" />
+        <option value="$PROJECT_DIR$/src/C183.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="33" />
-    <option name="y" value="24" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="17" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -169,8 +173,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,6 +189,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -213,17 +217,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UndergroundSys">
-    <configuration name="C178" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C178" />
+  <component name="RunManager" selected="Application.C183">
+    <configuration name="B23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Biweekly.B23" />
       <module name="LC_Contest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C179" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C179" />
-      <module name="LC_Contest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Biweekly.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -242,6 +245,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C183" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C183" />
+      <module name="LC_Contest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UndergroundSys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="UndergroundSys" />
       <module name="LC_Contest" />
@@ -251,11 +261,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C183" />
+        <item itemvalue="Application.B23" />
         <item itemvalue="Application.UndergroundSys" />
         <item itemvalue="Application.C182" />
         <item itemvalue="Application.C181" />
-        <item itemvalue="Application.C179" />
-        <item itemvalue="Application.C178" />
       </list>
     </recent_temporary>
   </component>
@@ -281,17 +291,19 @@
       <workItem from="1585532093375" duration="50000" />
       <workItem from="1585532163859" duration="11000" />
       <workItem from="1585710246725" duration="21000" />
+      <workItem from="1586011570804" duration="1047000" />
+      <workItem from="1586053669458" duration="4352000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19763000" />
+    <option name="totallyTimeSpent" value="25162000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="33" y="24" width="1440" height="877" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16380544" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16809729" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -300,8 +312,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24888393" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40848213" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24840765" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.21401274" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -312,6 +324,8 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32738853" />
       <window_info anchor="bottom" id="Statistic" order="13" />
+      <window_info anchor="bottom" id="Tail" order="14" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3297568" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -336,8 +350,17 @@
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/C183.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LC_Contest$C183.ic" NAME="C183 Coverage Results" MODIFIED="1586057711808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/C178.java">
@@ -369,22 +392,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/C182.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding>
-            <element signature="method#reverse#0;class#C182#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/UndergroundSys.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/C182.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding>
+            <element signature="method#reverse#0;class#C182#0" />
           </folding>
         </state>
       </provider>
@@ -462,6 +485,24 @@
           <folding>
             <element signature="e#11597#11598#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Biweekly/B23.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#countLargestGroup#0;class#B23#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/C183.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
         </state>
       </provider>
     </entry>

@@ -1,7 +1,6 @@
-import java.io.BufferedReader;
+import Tree.TreeNode;
+
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.lang.*;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -14,12 +13,7 @@ public class Tree {
         System.out.print(out);
 
     }
-    public static class TreeNode {
-      int val;
-      TreeNode left;
-      TreeNode right;
-      TreeNode(int x) { val = x; }
-    }
+
     public static TreeNode stringToTreeNode(String input) {
         input = input.trim();
         input = input.substring(1, input.length() - 1);
@@ -34,7 +28,7 @@ public class Tree {
         nodeQueue.add(root);
 
         int index = 1;
-        while(!nodeQueue.isEmpty()) {
+        while (!nodeQueue.isEmpty()) {
             TreeNode node = nodeQueue.remove();
 
             if (index == parts.length) {
@@ -73,22 +67,22 @@ public class Tree {
         public boolean isSubtree(TreeNode s, TreeNode t) {
 
             boolean flag = false;
-            while(s!=null) {
+            while (s != null) {
                 if (t == null) return false;
-                if (s.val == t.val && check(s,t)){
+                if (s.val == t.val && check(s, t)) {
                     flag = true;
                     break;
-                }
-                else return isSubtree(s.left,t) || isSubtree(s.right,t);
+                } else return isSubtree(s.left, t) || isSubtree(s.right, t);
             }
             return flag;
         }
-        public boolean check(TreeNode s, TreeNode t){
-            if(s==null && t == null) return true;
-            else if(s==null || t == null) return false;
-            System.out.printf("(%d,%d) ",s.val, t.val);
-            if(s.val == t.val)
-                return check(s.left,t.left) && check(s.right,t.right);
+
+        public boolean check(TreeNode s, TreeNode t) {
+            if (s == null && t == null) return true;
+            else if (s == null || t == null) return false;
+            System.out.printf("(%d,%d) ", s.val, t.val);
+            if (s.val == t.val)
+                return check(s.left, t.left) && check(s.right, t.right);
             else return false;
         }
     }
