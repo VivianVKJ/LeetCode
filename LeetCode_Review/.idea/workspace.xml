@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e28676cf-234c-44c9-8ac4-7292761df3d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/LeetCode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heap/lastStoneWeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/bstFromPreorder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1092.shortest-common-supersequence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../132.palindrome-partitioning-ii.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../188.best-time-to-buy-and-sell-stock-iv.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../712.minimum-ascii-delete-sum-for-two-strings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dynamic Programming/322.coin-change.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Dynamic Programming/322.coin-change.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dynamic Programming/70.climbing-stairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Dynamic Programming/70.climbing-stairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LC_Contest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LC_Contest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LC_Contest/out/production/LC_Contest/UndergroundSys.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LC_Contest/out/production/LC_Contest/UndergroundSys.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode_Review/Tree$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode_Review/Tree$Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode_Review/Tree$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode_Review/Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode_Review/Tree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Note-for-Algorithms.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Note-for-Problems.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode_Review/BinarySearch/completeTreeNodes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearch/completeTreeNodes.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,10 +60,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BinarySearch/completeTreeNodes.java">
+        <entry file="file://$PROJECT_DIR$/src/Array/prisonAfterNDays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+            <state relative-caret-position="270">
+              <caret line="15" column="29" selection-end-line="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -177,6 +165,7 @@
         <option value="$PROJECT_DIR$/src/Tree/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/Tree/bstFromPreorder.java" />
         <option value="$PROJECT_DIR$/src/BinarySearch/completeTreeNodes.java" />
+        <option value="$PROJECT_DIR$/src/Array/prisonAfterNDays.java" />
       </list>
     </option>
   </component>
@@ -187,8 +176,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="114" />
-    <option name="y" value="73" />
+    <option name="x" value="236" />
+    <option name="y" value="181" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -198,7 +187,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,19 +204,13 @@
               <item name="LeetCode_Review" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode_Review" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="BFS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode_Review" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode_Review" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="BinarySearch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode_Review" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode_Review" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="QueueAndStack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode_Review" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode_Review" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Tree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetCode_Review" type="b2602c69:ProjectViewProjectNode" />
@@ -237,7 +220,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -263,7 +246,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.completeTreeNodes">
+  <component name="RunManager" selected="Application.prisonAfterNDays">
     <configuration name="bstFromPreorder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tree.bstFromPreorder" />
       <module name="LeetCode_Review" />
@@ -303,19 +286,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lastStoneWeightII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DP.lastStoneWeightII" />
-      <module name="LeetCode_Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="minPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DP.minPathSum" />
       <module name="LeetCode_Review" />
@@ -329,13 +299,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="prisonAfterNDays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.prisonAfterNDays" />
+      <module name="LeetCode_Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.prisonAfterNDays" />
         <item itemvalue="Application.completeTreeNodes" />
         <item itemvalue="Application.bstFromPreorder" />
         <item itemvalue="Application.minPathSum" />
         <item itemvalue="Application.checkValidString" />
-        <item itemvalue="Application.lastStoneWeightII" />
       </list>
     </recent_temporary>
   </component>
@@ -387,11 +370,12 @@
       <workItem from="1590505683254" duration="2000" />
       <workItem from="1590525757832" duration="240000" />
       <workItem from="1590717733533" duration="476000" />
+      <workItem from="1593816532882" duration="924000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73535000" />
+    <option name="totallyTimeSpent" value="74459000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -403,11 +387,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="114" y="73" width="1440" height="877" extended-state="0" />
+    <frame x="236" y="181" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49044585" visible="true" weight="0.1988555" />
-      <window_info id="Structure" order="1" sideWeight="0.50955415" side_tool="true" visible="true" weight="0.1988555" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48917198" visible="true" weight="0.20171674" />
+      <window_info id="Structure" order="1" sideWeight="0.510828" side_tool="true" visible="true" weight="0.20171674" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -426,8 +410,8 @@
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3299363" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.3284974" />
-      <window_info anchor="bottom" id="Debug" order="14" sideWeight="0.49919486" weight="0.2522293" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32738853" />
+      <window_info anchor="bottom" id="Debug" order="14" sideWeight="0.49919486" weight="0.4535032" />
       <window_info anchor="right" id="RestServices" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.24964234" />
@@ -502,6 +486,7 @@
     <watches-manager>
       <configuration name="Application">
         <watch expression="stack.get(0)" />
+        <watch expression="Arrays.toString(cells)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
@@ -515,6 +500,16 @@
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
+        <expression-string>Arrays.toString(cells)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cells.toString()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>max</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -522,16 +517,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33786">
-          <caret line="2034" selection-start-line="2034" selection-end-line="2034" />
-          <folding>
-            <element signature="e#83250#83251#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/HashSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3258">
@@ -840,13 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree/bstFromPreorder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -876,8 +854,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BinarySearch/completeTreeNodes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state relative-caret-position="144">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/bstFromPreorder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/prisonAfterNDays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="29" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
