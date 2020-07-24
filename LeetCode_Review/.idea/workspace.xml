@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e28676cf-234c-44c9-8ac4-7292761df3d5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode_Review/BinarySearch/completeTreeNodes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/completeTreeNodes.java" beforeDir="false" />
-    </list>
+    <list default="true" id="e28676cf-234c-44c9-8ac4-7292761df3d5" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,13 +55,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Array/prisonAfterNDays.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="15" column="29" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DP/palindromicSubstrings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" selection-start-line="10" selection-end-line="15" selection-end-column="9" />
+              <folding>
+                <element signature="e#93#94#0" expanded="true" />
+                <element signature="e#111#112#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -166,6 +175,7 @@
         <option value="$PROJECT_DIR$/src/Tree/bstFromPreorder.java" />
         <option value="$PROJECT_DIR$/src/BinarySearch/completeTreeNodes.java" />
         <option value="$PROJECT_DIR$/src/Array/prisonAfterNDays.java" />
+        <option value="$PROJECT_DIR$/src/DP/palindromicSubstrings.java" />
       </list>
     </option>
   </component>
@@ -176,8 +186,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="236" />
-    <option name="y" value="181" />
+    <option name="x" value="469" />
+    <option name="y" value="168" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -187,7 +197,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,12 +223,19 @@
             </path>
             <path>
               <item name="LeetCode_Review" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode_Review" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode_Review" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -246,26 +262,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.prisonAfterNDays">
+  <component name="RunManager" selected="Application.palindromicSubstrings">
     <configuration name="bstFromPreorder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tree.bstFromPreorder" />
       <module name="LeetCode_Review" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="checkValidString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="QueueAndStack.checkValidString" />
-      <module name="LeetCode_Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="QueueAndStack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -299,6 +302,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="palindromicSubstrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DP.palindromicSubstrings" />
+      <module name="LeetCode_Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="prisonAfterNDays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array.prisonAfterNDays" />
       <module name="LeetCode_Review" />
@@ -314,11 +330,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.palindromicSubstrings" />
         <item itemvalue="Application.prisonAfterNDays" />
         <item itemvalue="Application.completeTreeNodes" />
         <item itemvalue="Application.bstFromPreorder" />
         <item itemvalue="Application.minPathSum" />
-        <item itemvalue="Application.checkValidString" />
       </list>
     </recent_temporary>
   </component>
@@ -371,11 +387,12 @@
       <workItem from="1590525757832" duration="240000" />
       <workItem from="1590717733533" duration="476000" />
       <workItem from="1593816532882" duration="924000" />
+      <workItem from="1595518849972" duration="1853000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74459000" />
+    <option name="totallyTimeSpent" value="76312000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -387,11 +404,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="236" y="181" width="1440" height="877" extended-state="0" />
+    <frame x="724" y="183" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48917198" visible="true" weight="0.20171674" />
-      <window_info id="Structure" order="1" sideWeight="0.510828" side_tool="true" visible="true" weight="0.20171674" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4848485" weight="0.20457797" />
+      <window_info id="Structure" order="1" sideWeight="0.5151515" side_tool="true" weight="0.20457797" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -411,7 +428,7 @@
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3299363" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32738853" />
-      <window_info anchor="bottom" id="Debug" order="14" sideWeight="0.49919486" weight="0.4535032" />
+      <window_info anchor="bottom" id="Debug" order="14" sideWeight="0.49919486" visible="true" weight="0.4535032" />
       <window_info anchor="right" id="RestServices" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.24964234" />
@@ -517,16 +534,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/HashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3258">
-          <caret line="219" selection-start-line="219" selection-end-line="219" />
-          <folding>
-            <element signature="e#8112#8113#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10206">
@@ -811,6 +818,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinarySearch/completeTreeNodes.java" />
     <entry file="file://$PROJECT_DIR$/src/QueueAndStack/checkValidString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -822,6 +830,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" selection-start-line="10" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/bstFromPreorder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -852,26 +867,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinarySearch/completeTreeNodes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree/bstFromPreorder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/prisonAfterNDays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="15" column="29" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DP/palindromicSubstrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" selection-start-line="10" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="e#93#94#0" expanded="true" />
+            <element signature="e#111#112#0" expanded="true" />
           </folding>
         </state>
       </provider>
