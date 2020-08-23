@@ -387,12 +387,12 @@
       <workItem from="1590525757832" duration="240000" />
       <workItem from="1590717733533" duration="476000" />
       <workItem from="1593816532882" duration="924000" />
-      <workItem from="1595518849972" duration="1853000" />
+      <workItem from="1595518849972" duration="1987000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76312000" />
+    <option name="totallyTimeSpent" value="76446000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -404,7 +404,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="724" y="183" width="1440" height="877" extended-state="0" />
+    <frame x="469" y="168" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4848485" weight="0.20457797" />
@@ -428,7 +428,7 @@
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3299363" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32738853" />
-      <window_info anchor="bottom" id="Debug" order="14" sideWeight="0.49919486" visible="true" weight="0.4535032" />
+      <window_info anchor="bottom" id="Debug" order="14" sideWeight="0.49919486" weight="0.4535032" />
       <window_info anchor="right" id="RestServices" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.24964234" />
