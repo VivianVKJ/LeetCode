@@ -4,11 +4,13 @@ import java.util.HashMap;
  * @lc app=leetcode id=974 lang=java
  *
  * [974] Subarray Sums Divisible by K
+ * similar question: #560
  */
 
 // @lc code=start
 class Solution {
     public int subarraysDivByK(int[] A, int K) {
+        //20Aug23
         int sum = 0, count = 0;
         int n = A.length;
         HashMap<Integer, Integer> map = new HashMap<>();
