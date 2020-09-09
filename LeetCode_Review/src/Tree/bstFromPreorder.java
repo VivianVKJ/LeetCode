@@ -1,5 +1,7 @@
 package Tree;
 
+import Tree.utils.TreeNode;
+
 public class bstFromPreorder {
     public static void main(String[] args) {
         int[] pre = {8, 5, 1, 7, 10, 12};
