@@ -27,15 +27,15 @@ class Solution {
         List<int[]> result = new ArrayList<>();
         int[] latest = intervals[0];
         result.add(latest);
-        for(int[] temp : intervals){
-            if(temp[0]<=latest[1]){
-                latest[1] = Math.max(temp[1],latest[1]);
-            }
-            else{
+        for (int[] temp : intervals) {
+            if (temp[0] <= latest[1]) {
+                latest[1] = Math.max(temp[1], latest[1]);
+            } else {
                 result.add(temp);
                 latest = temp;
             }
-        } 
+        }
+        result.add(pre);
         return result.toArray(new int[0][0]);
     }
 }

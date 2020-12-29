@@ -7,25 +7,16 @@
 // @lc code=start
 class Solution {
     public List<Integer> topKFrequent(int[] nums, int k) {
-        HashMap<Integer,Integer> count = new HashMap<Integer,Integer>();
-        for(int i=0;i<nums.length;i++){
-            count.put(nums[i],count.getOrDefault(nums[i],0)+1);
-        }
-        
-        PriorityQueue<Integer> heap = new PriorityQueue<>((x,y)->count.get(x)-count.get(y));
-        for(int n:count.keySet()){
-            heap.add(n);
-            if(heap.size()>k)
-            heap.poll();
-        }
- 
-        List<Integer> res = new ArrayList<Integer>();
-        while(!heap.isEmpty()){
-            res.add(heap.poll());
-        }
-        Collections.reverse(res);
-        return res;
+        HashMap<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++)
+            map.put(nums[i], map.getOrDefault(nums[i], 0) + 1);
+        PriorityQueue<Integer> heap = new PriorityQueue<>((x, y) -> (map.get(y) - map.get(x)));
+        for (int i : map.keySet())
+            heap.add(i);
+        int[] ans = new int[k];
+        for (int i = 0; i < k; i++)
+            ans[i] = heap.poll();
+        return ans;
     }
 }
 // @lc code=end
-

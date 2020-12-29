@@ -1,3 +1,5 @@
+import java.util.ArrayDeque;
+
 /*
  * @lc app=leetcode id=239 lang=java
  * [1,-1]\n1
@@ -6,39 +8,24 @@
 
 // @lc code=start
 class Solution {
+
     public int[] maxSlidingWindow(int[] nums, int k) {
-        int r=k-1,max_index=0;
-        if(k==0 || nums.length==0) return new int[0];
-        int[] res = new int[nums.length-k+1];
-
-        res[0] = Integer.MIN_VALUE;
-        for(int i=0;i<k;i++){
-            if(nums[i]>res[0]){
-                res[0] = nums[i];
-                max_index = i;
-            }
+        int n = nums.length;
+        if (n == 0 || k <= 0)
+            return new int[0];
+        ArrayDeque<Integer> deq = new ArrayDeque<>();
+        int[] ans = new int[n - k + 1];
+        int index = 0;
+        for (int i = 0; i < nums.length; i++) {
+            while (!deq.isEmpty() && deq.peek() < i - k + 1)
+                deq.pollFirst();
+            while (!deq.isEmpty() && nums[deq.getLast()] < nums[i])
+                deq.pollLast();
+            deq.offer(i);
+            if (i >= k - 1)
+                ans[index++] = nums[deq.peek()];
         }
-
-        for(r=k;r<nums.length;r++){
-            if(nums[r]>res[r-k]){
-                res[r-k+1] = nums[r];
-                max_index = r;
-            }
-            else{
-                if(max_index==r-k){
-                    res[r-k+1] =Integer.MIN_VALUE;
-                    for(int j =r-k+1;j<=r;j++){
-                        if(nums[j]>res[r-k+1]){
-                            res[r-k+1]=nums[j];
-                            max_index = j;
-                        }
-                    }
-                }
-                else res[r-k+1] = nums[max_index];
-            }
-        }
-        return res;
+        return ans;
     }
 }
 // @lc code=end
-
